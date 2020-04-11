@@ -1,4 +1,7 @@
 ## 实验报告 ##
+
+[TOC]
+
 <p><small>来自19302010069_项心叶</small><br>
 <small><a href="https://github.com/Sherlock-Watson/">我的GitHub地址</a></small><br>
 <small><a href="https://sherlock-watson.github.io/My_Travel/">我的Gitpages地址</a></small>
@@ -21,18 +24,21 @@
 实现方式为：
 </p>
 
+```html
        overflow:hidden;
        text-overflow:ellipsis;
        white-space: nowrap;
-       
+```
 <p>
 这和后面几个界面的实现方式不一样，后面几个界面只有在Chrome
 等支持<code>-webkit-</code>的浏览器中才能正常显示。
 </p>
 <p>
-采用四列布局，
+采用四列布局，每一行是一个
+ 
+ `row` 
 </p>
 <p>
-缩略图使用的非正方形图片，具体实现方式见下面关于Bonus实现部分
+缩略图使用的非正方形图片，具体实现方式见下面关于Bonus实现部分.
 的介绍。
 </p>

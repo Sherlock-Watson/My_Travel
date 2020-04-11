@@ -1,0 +1,147 @@
+body {
+    background-color: lightseagreen;
+}
+
+#nav {
+    width: 100%;
+    background-image: url("../img/Light2.jpg");
+    border: none;
+    height: 920px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0;
+}
+
+.nav-left a:hover, #myAccount:hover {
+    background-image: none;
+    color: lightseagreen;
+}
+
+.active {
+    background-image: none;
+    color: lightskyblue;
+}
+
+#topPicture {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.contents {
+    background-color: #f6f6f6;
+    box-shadow: 5px 5px 8px #333;
+    overflow: visible;
+    margin: 0 50px 10px;
+}
+
+.row {
+    padding: 10px 5%;
+    text-align: center;
+}
+
+.row::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float:left;
+    width:17%;
+    height:230px;
+    margin: 1.8em;
+    padding: 25px 1em;
+    background-color: transparent;
+            /*#d4f5fa;*/
+    border-radius: 0.5em;
+    overflow: hidden;
+    /*display: -webkit-box;*/
+    /*-webkit-box-orient: vertical; !* 垂直排列 *!*/
+    word-break: break-all;  /* 内容自动换行 */
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 0 5px #888888;
+}
+
+.col:hover {
+    background-color: rgba(32, 178, 170, 0.70);
+}
+
+.col:hover p, .col:hover h5 {
+    color: white;
+}
+
+.frame {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.target {
+    padding-bottom:100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("../img/s.jpg");
+    background-size: cover;
+}
+
+.img {
+    width: 75%;
+    height: 75%;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.col h5 {
+    font-size: 15px;
+    text-align: left;
+    padding: 15px;
+    color: lightseagreen;
+}
+
+.col p {
+    text-align: left;
+    font-size: 12px;
+    color: #c2c2c2;
+    width: 200px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    /*background: goldenrod;*/
+    white-space: nowrap;
+}
+
+footer {
+    clear: both;
+    background-color: lightseagreen;
+    color: white;
+    line-height: 22px;
+    padding: 20px;
+    font-size: 12px;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+footer a:hover {
+    color: blue;
+}
+
+.media-links a{
+    margin: 20px;
+}
+
+.up-refresh {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.up-refresh div {
+    margin-bottom: 20px;
+}

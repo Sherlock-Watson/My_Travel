@@ -23,6 +23,7 @@ input[type="file"] {
     width: 100px;
     height: 30px;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .bt-upload input, form > a > input[type="button"] {
@@ -30,6 +31,7 @@ input[type="file"] {
     font-weight: bold;
     background-image: linear-gradient(lightseagreen, #207c74);
     color: white;
+    cursor: pointer;
 }
 
 /*.bt-upload input:active {*/

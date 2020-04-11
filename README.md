@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+## 实验报告 ##
+<p><small>来自19302010069_项心叶</small><br>
+<small><a href="https://github.com/Sherlock-Watson/">我的GitHub地址</a></small><br>
+<small><a href="https://sherlock-watson.github.io/My_Travel/">我的Gitpages地址</a></small>
+</p>
 
-You can use the [editor on GitHub](https://github.com/Sherlock-Watson/My_Travel/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Sherlock-Watson/My_Travel/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### 1.项目完成情况 ###
+#### 1.1首页 ###
+<p>
+首页由导航栏、一张很大的图、图片与缩略文字、页脚组成
+</p>
+<p>
+首页的导航栏和其他页面的导航栏有所不同，虽然首页、搜索、
+浏览、我的页面这些元素和其他页面在相同的位置，但是首页的
+导航栏是透明的，我采用背景图片的方式使得文字漂浮在大图的
+上方。My Travel是这个网站的名称，图上的大字使得首页特点
+十分鲜明。
+</p>
+<p>
+首页下面的部分是缩略图和带有省略号的介绍文字，省略号的
+实现方式为：
+```overflow:hidden;
+       text-overflow:ellipsis;
+       /*background: goldenrod;*/
+       white-space: nowrap;```
+</p>

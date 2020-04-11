@@ -24,10 +24,12 @@
 实现方式为：
 </p>
 
-```html
-       overflow:hidden;
-       text-overflow:ellipsis;
-       white-space: nowrap;
+```css
+.col p {
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    }
 ```
 <p>
 这和后面几个界面的实现方式不一样，后面几个界面只有在Chrome

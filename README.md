@@ -19,8 +19,20 @@
 <p>
 首页下面的部分是缩略图和带有省略号的介绍文字，省略号的
 实现方式为：
-```overflow:hidden;
+</p>
+
+       overflow:hidden;
        text-overflow:ellipsis;
-       /*background: goldenrod;*/
-       white-space: nowrap;```
+       white-space: nowrap;
+       
+<p>
+这和后面几个界面的实现方式不一样，后面几个界面只有在Chrome
+等支持<code>-webkit-</code>的浏览器中才能正常显示。
+</p>
+<p>
+采用四列布局，
+</p>
+<p>
+缩略图使用的非正方形图片，具体实现方式见下面关于Bonus实现部分
+的介绍。
 </p>

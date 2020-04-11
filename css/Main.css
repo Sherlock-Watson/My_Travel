@@ -107,9 +107,9 @@ body {
     width: 200px;
     overflow:hidden;
     text-overflow:ellipsis;
-    /*background: goldenrod;*/
     white-space: nowrap;
 }
+/*单行显示，显示省略号*/
 
 footer {
     clear: both;
